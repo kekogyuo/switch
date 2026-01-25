@@ -1,0 +1,68 @@
+/* ===== About Hero ===== */
+
+.about-hero {
+  height: 70vh;
+  background-image: url("IMG/burkinafaso.jpg"); /* 差し替えてください */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.about-hero-overlay {
+  background: rgba(0,0,0,0.45);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* ===== Member ===== */
+
+.member-card {
+  background: #f8f9fa;
+  padding: 2.5rem 2rem;
+  border-radius: 22px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.06);
+}
+
+.member-photo {
+  width: 120px;
+  height: 120px;
+  background: #ddd; /* 写真差し替え */
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* ===== Motivation ===== */
+
+.motivation-box {
+  background: #f8f9fa;
+  padding: 3rem;
+  border-radius: 22px;
+  box-shadow: 0 16px 32px rgba(0,0,0,0.06);
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.motivation-box p {
+  margin-bottom: 1.3rem;
+}
+
+.motivation-box .quote {
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  color: #555;
+}
+
+.motivation-box .closing {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.motivation-box .signature {
+  text-align: right;
+  margin-top: 2.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
